@@ -1,0 +1,248 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+nav {
+  font-size: 30px;
+  text-align: center;
+}
+
+.Menu, .Icon-bar, .Page, .Home, .Back {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.Page {
+  font-family: 'Courier New', 'Courier New', Courier, monospace;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: gainsboro;
+}
+
+input {
+  width: 90%;
+  border-radius: 150px;
+  float: none;
+  padding: 6px;
+  border: 2px solid black;
+  font-size: 25px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+.Home {
+  bottom: 0;
+  height: 25%;
+}
+
+.Back {
+  bottom: 0;
+  height: 30%;
+}
+
+.Title {
+  font-family: Verdana, Geneva, sans-serif;
+  margin-top: 25px;
+  font-size: 100px;
+}
+
+.Main-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  position: fixed;
+  left: 15%;
+  right: 15%;
+  text-align: left;
+  padding-top: 2%;
+}
+
+.Menu {
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+  bottom: 0;
+  height: 60%;
+}
+
+p {
+  font-size: 50px;
+}
+
+a {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:link, a:visited{
+  color: blue;
+}
+
+a:hover {
+  color: #4CAF50;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.Icon-bar {
+  bottom: 0;
+  height: 15%;
+}
+
+.Icon-bar a {
+  transform: translateY(175%);
+  padding: 1px 1px;
+  font-size: 17px;
+  margin-left: 8px;
+}
+
+.C, .F {
+  position: fixed;
+  bottom: 0;
+  height: 65%;
+  width: 20%;
+}
+
+.C {
+  left: 30%;
+}
+
+.F {
+  left: 50%;
+}
+
+.Binary, .Decimal, .Hex {
+  position: fixed;
+  bottom: 0;
+  height: 65%;
+  width: 20%;
+}
+
+.Binary {
+  left: 20%;
+}
+
+.Decimal {
+  left: 40%;
+}
+
+.Hex {
+  left: 60%;
+}
+
+.Metric-menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+}
+
+.Mm, .Cm, .M, .Km {
+  position: fixed;
+  bottom: 0;
+  height: 75%;
+  width: 20%;
+}
+
+.Mm {
+  left: 10%;
+}
+
+.Cm {
+  left: 30%;
+}
+
+.M {
+  left: 50%;
+}
+
+.Km {
+  left: 70%;
+}
+
+.In, .Ft, .Yd, .Mi {
+  position: fixed;
+  bottom: 0;
+  height: 50%;
+  width: 20%;
+}
+
+.In {
+  left: 10%;
+}
+
+.Ft {
+  left: 30%;
+}
+
+.Yd {
+  left: 50%;
+}
+
+.Mi {
+  left: 70%;
+}
+
+.Mg, .G, .Kg {
+  position: fixed;
+  bottom: 0;
+  height: 75%;
+  width: 20%;
+}
+
+.Mg {
+  left: 20%;
+}
+
+.G {
+  left: 40%;
+}
+
+.Kg {
+  left: 60%;
+}
+
+.Oz, .Lb {
+  position: fixed;
+  bottom: 0;
+  height: 50%;
+  width: 20%;
+}
+
+.Oz {
+  left: 30%;
+}
+
+.Lb {
+  left: 50%;
+}
+
+.Kph, .Mph {
+  position: fixed;
+  bottom: 0;
+  height: 65%;
+  width: 20%;
+}
+
+.Kph {
+  left: 30%;
+}
+
+.Mph {
+  left: 50%;
+}
